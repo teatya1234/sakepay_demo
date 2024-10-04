@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+}
+
+/* .input-container{
+    float: left;
+} */
+
+.list-container{
+    justify-content: center;
+}
+
+.table-container {
+    max-height: 300px;
+    max-width: fit-content;
+    overflow-y: auto;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    border: 1px;
+}

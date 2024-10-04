@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="warikan.css">
+  <title>公平割勘</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-container">
+      <input type="button" value="データの取得" onclick="getData()"><br>
+      <input type="number" min="0" placeholder="抽出を行うIDの入力" id="coasterId">
+      <input type="button" value="抽出" onclick="extraction()"><br>
+      <input type="number" min="0" placeholder="金額の入力" id="amountMoney">
+      <input type="button" value="WARIKAN" onclick="warikan()"><br><br>
+    </div>
+
+    <div class="list-container">
+      <a id="list">リスト</a>
+      <div class="table-container">
+        <table id="lists"></table>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="warikan.js"></script>
+</body>
+
+</html>
